@@ -10,6 +10,10 @@ PRODUCT_PACKAGES += \
     Glimpse \
     LatinIME
 
+# FaceEnroll - Settings RRO
+ PRODUCT_PACKAGES += \
+     FaceEnrollSettingsOverlay
+
 # Temp build
 #PRODUCT_PACKAGES += \
 #    Launcher3QuickStep
