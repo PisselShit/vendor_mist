@@ -21,8 +21,8 @@ endif
 # Etc Packages
 PRODUCT_PACKAGES += \
     GameSpace \
-    OmniStyle
-#    OmniJaws \
+    OmniStyle \
+    OmniJaws
 
 # Updater
 ifeq ($(MIST_BUILD_TYPE),OFFICIAL)
