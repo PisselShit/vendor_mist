@@ -24,6 +24,12 @@ PRODUCT_PACKAGES += \
     OmniStyle
 #    OmniJaws \
 
+# Updater
+ifeq ($(MIST_BUILD_TYPE),OFFICIAL)
+PRODUCT_PACKAGES += \
+    Updater
+endif
+
 # BtHelper
 PRODUCT_PACKAGES += \
     BtHelper
